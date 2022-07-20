@@ -1,7 +1,7 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
-// banner styling
+// banner 
 
 .banner {
 	display: flex;
@@ -57,6 +57,8 @@
 		justify-content: space-between;
 	}
 }
+
+// secondary nav
 
 .secondary-navigation {
 	background-color: $light-background;
@@ -157,7 +159,6 @@
 //post styling
 
 .post-width {
-	margin-right: $spacing-unit * 2;
 	padding: 48px;
 	width: 100%;
 }
@@ -172,7 +173,7 @@
 .secondary-navigation {
 	background-color: $light-background;
 	padding: $spacing-unit * 1.5;
-	max-width: 250px;
+	min-width: 250px;
 }
 
 .secondary-navigation-title {
@@ -187,4 +188,21 @@
 		color: #7939f7;
 		text-decoration: none;
 	}
+}
+
+// right column 
+
+.right-column {
+	background-color: $background-color;
+	padding: $spacing-unit * 1.5;
+	min-width: 250px;
+}
+
+//home
+
+.home {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
