@@ -15,6 +15,7 @@
 
 .banner-info {
 	align-self: center;
+	width: 100%;
 }
 
 .banner-post {
@@ -28,8 +29,8 @@
 	margin: -30px;
 
 	@include media-query($on-palm) {
-		height: 65%;
-		width: 65%;
+		height: 0%;
+		width: 0%;
 	}
 }
 
@@ -58,28 +59,6 @@
 	}
 }
 
-// secondary nav
-
-.secondary-navigation {
-	background-color: $light-background;
-	padding: $spacing-unit * 1.5;
-	width: 300px;
-}
-
-.secondary-navigation-title {
-	font-weight: 600;
-}
-
-.category-head {
-	font-weight: 600;
-
-	&:active,
-	&:hover {
-		color: #7939f7;
-		text-decoration: none;
-	}
-}
-
 .archive-group {
 	margin-bottom: $spacing-unit;
 }
@@ -96,8 +75,11 @@
 
 	@include media-query($on-palm) {
 		flex-direction: column;
-		margin-left: 0px;
-		margin-right: 0px;
+		max-width: 100%;
+		gap: 0px;
+		padding: 0px;
+		margin-top: 16px;
+		margin-left: 45px;
 	}
 }
 
@@ -106,8 +88,8 @@
 	max-width: 300px;
 
 	@include media-query($on-palm) {
-		height: 200px;
-		width: 200px;
+		height: 0%;
+		width: 0%;
 	}
 }
 
@@ -132,6 +114,10 @@
 	justify-content: space-between;
 	gap: 16px;
 	min-width: 400px;
+
+	@include media-query($on-palm) {
+		max-width: 100%;
+	}
 }
 
 //button styling
@@ -174,6 +160,7 @@
 	background-color: $light-background;
 	padding: $spacing-unit * 1.5;
 	min-width: 250px;
+	
 }
 
 .secondary-navigation-title {
