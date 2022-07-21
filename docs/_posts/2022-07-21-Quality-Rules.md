@@ -4,7 +4,7 @@ layout: post
 title: "Quality Rules"
 date: 2022-07-21 11:23:21 +0100
 categories: [Ideas]
-image: async-py.png
+image: post-image.png
 description: It is very import for a Python developer to know which data structure to use and when. In this section we are going to give a quick introduction to the most popular data structures in Python and hashable vs unhashable objects as well as the numpy and pandas libraries.
 
 ---
