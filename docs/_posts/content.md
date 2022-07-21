@@ -1,12 +1,12 @@
 ---
-layout: default
-title: Quality Rules
-title-meta: Quality Rules
-author-meta: James Walmsley
-date-meta: 2 June 2022
-subject:
-keywords:
-mainfont: Arial
+
+layout: post
+title: "Quality Rules"
+date:   2022-06-02
+categories: [Ideas]
+image: post-image.png
+description: "It is very import for a Python developer to know which data structure to use and when. In this section we are going to give a quick introduction to the most popular data structures in Python and hashable vs unhashable objects as well as the numpy and pandas libraries."
+
 ---
 
 ## Data Structure Guidelines
