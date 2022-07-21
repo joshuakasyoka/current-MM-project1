@@ -99,6 +99,10 @@
 	flex-direction: column;
 	justify-content: space-between;
 
+	@include media-query($on-palm) {
+		width: 100%
+	}
+
 }
 
 .post-card-footer {
@@ -147,6 +151,10 @@
 .post-width {
 	padding: 48px;
 	width: 100%;
+
+	@include media-query($on-palm) {
+		max-width: 100%;
+	}
 }
 
 .post-body {
